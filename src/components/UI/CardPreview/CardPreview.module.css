@@ -1,0 +1,12 @@
+.preview {
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    text-align: -webkit-center;
+    margin: 0px;
+    padding: 0px;
+}

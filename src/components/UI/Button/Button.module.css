@@ -1,0 +1,42 @@
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+    --clr-grey-6: hsl(209, 23%, 60%);
+    --clr-grey-9: hsl(212, 33%, 89%);
+    --clr-green-kraiola: rgb(26, 179, 148);
+    --transition: all 0.3s linear;
+}
+
+/*  Button */
+.button {
+  background: white;
+  color: var(--clr-grey-6);
+  padding: 0.5rem 0.75rem;
+  
+  display: inline-block;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+
+  
+  border-radius: 0.1rem;
+  border: 1px solid var(--clr-grey-9);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.button:hover {
+  border-color: var(--clr-grey-6);
+}
+
+.selected {
+    color: white;
+    background-color: var(--clr-green-kraiola);
+}
+
+.borderRightNone { 
+    border-right: none;
+}

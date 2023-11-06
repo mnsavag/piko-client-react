@@ -1,0 +1,12 @@
+.variant {
+    width: 50%;
+    
+    height: calc(100vh - 50px - 40px);
+    overflow: hidden;
+    background-color: #252424;
+    cursor: default;
+    
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}

@@ -1,0 +1,81 @@
+.contest {
+    background-color: #252424;
+}
+
+.info {
+    height: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    background: #3A454B;
+    border-bottom: 1px solid rgb(36, 35, 35);
+}
+
+.info p {
+    color: white;
+    font-weight: 400;
+}
+
+.headers {
+    display: flex;
+    align-items: center;
+    background: #3A454B;
+}
+
+.headers p {
+    color: white;
+    font-weight: 400;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
+
+.header .firstVar {
+    padding: 15px;
+    border-right: 1px solid rgb(36, 35, 35);
+}
+
+.header .secondVar {
+    padding: 15px;
+}
+
+.image {
+    max-width: 600px;
+    max-height: 600px;
+    width: 100%;
+    height: 100%;
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: block;
+    z-index: 2;
+}
+
+.firstStyle {
+    position: absolute;
+    left: 0;
+}
+
+.secondStyle {
+    position: absolute;
+    right: 0;
+}
+
+.selectedStyle {
+    width: 100%; 
+    transition: all 0.5s;
+}
+
+.loaderWrapper {
+    display: flex; 
+    justify-content: center;
+    margin-top: 50px;
+}

@@ -1,0 +1,37 @@
+/*
+=============== 
+Cards
+===============
+*/
+
+.sectionCards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    grid-gap: 0.5rem;
+    align-items: start;
+}
+
+@media (max-width: 1300px) {
+    .sectionCards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 1100px) {
+    .sectionCards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .sectionCards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/*@media (max-width: 1200px) {
+    .sectionCards {
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    }
+}*/

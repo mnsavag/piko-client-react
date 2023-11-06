@@ -1,0 +1,106 @@
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+    --clr-grey-5: hsl(210, 22%, 49%);
+    --clr-green-dark: hsl(125, 67%, 44%);
+    --transition: all 0.1s linear;
+    --spacing: 0.1rem;
+    --radius: 0.25rem;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+
+
+/*
+=============== 
+Card
+===============
+*/
+.singleCard {
+    background: #fff;
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+    transition: var(--transition);
+    /*width: 232px; потом убрать*/
+    width: 100%;
+}
+
+
+.singleCard:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardInfo p {
+    padding: 0.3rem 0rem;
+    color: var(--clr-grey-5);
+}
+
+.cardInfo h4 {
+  margin-bottom: 0;
+}
+
+
+.singleCard footer {
+    padding: 0.5rem 0.5rem;
+}
+
+
+/* Buttons */
+.buttonList {
+    margin-top: 5px;
+    display: flex;
+}
+
+.readMoreBtn {
+    background: transparent;
+    border-color: transparent;
+    text-transform: capitalize;
+    color: var(--clr-green-dark);
+    cursor: pointer;
+}
+
+.button {
+    display: inline-block;
+    font-size: 1rem;
+    background: transparent;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    
+    letter-spacing: var(--spacing);
+    border-radius: 0.2rem;
+    transition: all 0.2s linear;
+}
+
+.btnRed {
+    color: #ED586A;
+    border: 1px solid #ED586A;
+}
+
+.btnRed:hover {
+    color: white;
+    background-color: #ED586A;
+}
+
+.btnYellow {
+    color: #FF7600;
+    border: 1px solid #FF7600;
+}
+
+.btnYellow:hover {
+    color: white;
+    background-color: #FF7600;
+}
+
+.clearBoth {
+    clear: both;
+}

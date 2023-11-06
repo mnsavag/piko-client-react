@@ -1,0 +1,15 @@
+.gridVariants {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    column-gap: 0.5rem;
+    align-items: start;
+}
+
+
+@media (max-width: 1200px) {
+    .gridVariants {
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    }
+}
