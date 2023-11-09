@@ -62,7 +62,7 @@ const Creation = () => {
         const previewSecondError = errorExist(previewSecond.textErrors)
         const tagError = errorExist(categoryBtns.textErrors)
         const cardsError = getValidationCardError(cards, maxCards)
-   
+
         if (titleError || descriptionError || 
             previewFirstError || previewSecondError ||
             tagError || cardsError) {
@@ -95,6 +95,11 @@ const Creation = () => {
                 categoriesIds: tagList,
                 options: cardsForSend.map((card) => { return { name: card.name } })
             })
+
+            if (!responseCreate) {
+                throw new Exception("Blank server response")
+            }
+            
             await ContestService.uploadImages(
                 responseCreate.data.id,
                 previewFirst,

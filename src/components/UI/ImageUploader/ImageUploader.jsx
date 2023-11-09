@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import classes from "./ImageUploader.module.css"
-import uploadCloudImage from "../../../../public/assets/images/uploadcloud.png";
+import uploadCloudImage  from "../../../../public/assets/images/uploadcloud.png";
 
 
 const ImageUploader = ({styles, callback}) => {

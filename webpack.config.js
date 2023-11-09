@@ -13,8 +13,8 @@ const production = process.env.NODE_ENV === 'production';
 module.exports = {
     entry: { myAppName: path.resolve(__dirname, "./src/index.js") },
     output: {
-        path: path.resolve(__dirname, "./dist"),
-        filename: production ? '[name].[contenthash].js' : '[name].js',
+        path: path.resolve(__dirname, "dist"),
+        filename: '[name].js',
     },
     module: {
         rules: [
@@ -44,10 +44,7 @@ module.exports = {
               ],
               include: /\.module\.css$/,
             },
-            {
-                test: /\.(png|jpg|jpeg)$/i,
-                use: ['file-loader'],
-            },
+           
             {
                 test: /\.html$/,
                 use: ["html-loader"],
