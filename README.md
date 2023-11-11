@@ -22,6 +22,8 @@ At the moment the editor preview does not correspond to the real preview.
 ​
 ### Launch app
 
+Set up the database in files .env.
+
 **npm i** - install dependencies
 
 **npm run dev** - start app
