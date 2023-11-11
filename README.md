@@ -20,10 +20,16 @@ Here you can create your survey. Available image formats: png/jpg/jpeg.
 
 At the moment the editor preview does not correspond to the real preview.
 ​
-### Launch app
+### Installation
+
+```bash
+$ npm install
+```
+
+### Running the app
 
 Set up the database in files .env.
 
-**npm i** - install dependencies
-
-**npm run dev** - start app
+```bash
+$ npm run dev
+```
