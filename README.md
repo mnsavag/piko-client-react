@@ -1,6 +1,6 @@
 # piko-client-react
 
-Application for creating surveys in the form of contests
+Application for creating surveys in the form of contests.
 
 You can access it here http://31.129.106.57:3001/
 
@@ -18,7 +18,7 @@ Or see the rating by clicking the "show result" button.
 
 Here you can create your survey. Available image formats: png/jpg/jpeg.
 
-At the moment the editor preview does not correspond to the real preview
+At the moment the editor preview does not correspond to the real preview.
 ​
 ### Launch app
 
