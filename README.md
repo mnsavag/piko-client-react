@@ -20,7 +20,7 @@ Or see the rating by clicking the "show result" button.
 
 #### Create Championship Page
 
-Here you can create your survey. Available image formats: png/jpg/jpeg.
+Here you can create your survey. Available image format: png/jpg/jpeg.
 
 At the moment the editor preview does not correspond to the real preview.
 ​
