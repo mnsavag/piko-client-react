@@ -24,6 +24,14 @@ Here you can create your survey. Available image formats: png/jpg/jpeg.
 
 At the moment the editor preview does not correspond to the real preview.
 ​
+### Other Page Example
+
+![alt text](https://github.com/mnsavag/piko-client-react/blob/master/tournament-page-1.png?raw=true)
+
+![alt text](https://github.com/mnsavag/piko-client-react/blob/master/tournament-page-2.png?raw=true)
+
+![alt text](https://github.com/mnsavag/piko-client-react/blob/master/result-page.png?raw=true)
+
 ## Installation
 
 ```bash
