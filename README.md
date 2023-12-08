@@ -18,7 +18,7 @@ Also You can see the server implementation here https://github.com/mnsavag/piko-
 
 - Sorting cards by fields
 - Fields Validation
-- Interaction with the server. **By Axios**
+- Interaction with the server. Sending/Receiving requests. **By Axios**
 - Creation of tournament cards. **By Redux toolkit**
 - Tournament formation logic
 - Tournament logic
