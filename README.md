@@ -6,6 +6,23 @@ You can access it here http://31.129.106.57:3001/
 
 Also You can see the server implementation here https://github.com/mnsavag/piko-server-nestjs
 
+## Main stack
+
+- Javascript
+- React
+- Redux toolkit
+- Axios
+- CSS
+
+## Implementation
+
+- Sorting cards by fields
+- Fields Validation
+- Interaction with the server. By Axios.
+- Creation of tournament cards. By Redux toolkit.
+- Tournament formation logic.
+- Tournament logic
+
 ## Interacting with app
 
 ### Home Page
