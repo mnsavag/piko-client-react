@@ -51,10 +51,10 @@ At the moment the editor preview does not correspond to the real preview.
 
 ## Client-server interaction
 
-for implement client-server interaction, create the .env file and add a variable
+For implement client-server interaction, create the .env file and add a variable. Feel free to change it according to your own configuration.
 
 ```bash
-REACT_APP_API_URL
+REACT_APP_API_URL='http://localhost:8000/'
 ```
 
 ## Installation
