@@ -49,6 +49,14 @@ At the moment the editor preview does not correspond to the real preview.
 
 ![alt text](https://github.com/mnsavag/piko-client-react/blob/master/result-page.png?raw=true)
 
+## Client-server interaction
+
+For implement client-server interaction, create the .env file and add a variable. Feel free to change it according to your own configuration.
+
+```bash
+REACT_APP_API_URL='http://localhost:8000/'
+```
+
 ## Installation
 
 ```bash
